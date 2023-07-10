@@ -37,3 +37,19 @@
         transform: rotate(360deg);
     }
 }
+
+.containerr {
+    background-color: #61dafb;
+    height: 100vh;
+    width: 100vw;
+    /* border: px solod blue; */
+    /* margin-top: -4%; */
+}
+
+.headingtag {
+    color: white;
+    background-color: hotpink;
+    width: 100vw;
+    text-align: center;
+    /* display: flex; */
+}

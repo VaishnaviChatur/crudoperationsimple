@@ -14,8 +14,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { GlobalProvider } from './componantes/CurdOperation/GlobalState';
 function App() {
   return (
+    <div className='containerr'>
+   <h1 className='headingtag'>CRUD OPERATION</h1>
+    <div style={{ maxWidth: "30rem", margin: "4rem auto", }}>
     
-    <div style={{ maxWidth: "30rem", margin: "4rem auto",backgroundColor:'#61dafb' }}>
       <BrowserRouter>
         <GlobalProvider>
           <Routes>
@@ -25,6 +27,7 @@ function App() {
           </Routes>
         </GlobalProvider>
       </BrowserRouter>
+    </div>
     </div>
   );
 }
